@@ -13,6 +13,17 @@
 public class PrimitiveOperations {
    public static void main(String[] args) {
         
-        System.out.println("Hello World");
+    int integerVar = 13;
+    double decimalVar = 7.9;
+
+    System.out.println(integerVar);
+    System.out.println(decimalVar);
+
+    double multipliedVar = integerVar * decimalVar;
+
+    System.out.println(multipliedVar);
+
+
     }
 }
+
